@@ -24,6 +24,8 @@ fig_path = f"{root_path}/CGC_Pilots/Figs"
 
 # %%% Script
 
+# Hey Julissa was here 
+
 gong_dates = cfg.gong_dates
 
 for date in gong_dates :
