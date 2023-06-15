@@ -15,25 +15,61 @@ local = False
 DataType = "Piloting"
 
 root_DDE = "/Volumes/DDE_ALC/PhD/EPISSE"
+
+arthur_rootpath = ""
+jules_rootpath = ""
+
 recording_dates = [
     "230523",
     "250523",
     "300523",
     "010623",
     "020623",
-    "060623"
+    "050623",
+    "060623",
+    "070623",
+    "120623",
+    "130623",
     ]
 
 gong_dates = [
     "230523", 
     "300523",
     "020623",
-    "060623"
+    "050623",
+    "060623",
+    "120623",
+    "130623",
+    ]
+
+alfredo_dates = [
+    "250523",
+    "010623",
+    "070623",
+    "140623"
     ]
 
 # %% Functions 
 
 def SW_detect(eeg_raw_data, fig_dir, sf):
+    """
+    Parameters
+    ----------
+    eeg_raw_data : TYPE
+        DESCRIPTION.
+    fig_dir : TYPE
+        DESCRIPTION.
+    sf : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    allWaves : TYPE
+        DESCRIPTION.
+    slowWaves : TYPE
+        DESCRIPTION.
+
+    """
     
     sfreq = sf
     channels = eeg_raw_data.ch_names[:-1]
