@@ -17,7 +17,7 @@ DataType = "Piloting"
 root_DDE = "/Volumes/DDE_ALC/PhD/EPISSE"
 
 arthur_rootpath = ""
-jules_rootpath = ""
+jules_rootpath = "/Users/julissadelossantos/Desktop/EPISSE"
 
 recording_dates = [
     "230523",
