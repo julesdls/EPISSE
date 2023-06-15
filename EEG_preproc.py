@@ -40,7 +40,9 @@ import mne
 import glob
 import datetime
 
+
 root_path = cfg.root_DDE
+
 raw_path = f"{root_path}/CGC_Pilots/Raw"
 preproc_path = f"{root_path}/CGC_Pilots/Preproc"
 behav_path = f"{root_path}/CGC_Pilots/Behav"
